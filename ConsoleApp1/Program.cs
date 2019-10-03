@@ -9,6 +9,7 @@ namespace ConsoleApp1
 {
     class Program
     {
+        
         static HttpListener _httpListener = new HttpListener();
         static void Main(string[] args)
         {
@@ -38,15 +39,20 @@ namespace ConsoleApp1
                 Console.Write(text);*/
 
                 var client = new WebClient();
-                var body = client.DownloadString("https://api.airtable.com/v0/appxiufWMNuWFhrKN/Marketplace?api_key=keyviCCmCsS89byTt");
+                var body = client.DownloadString(
+                    "https://api.airtable.com/v0/appxiufWMNuWFhrKN/Marketplace?api_key=keyviCCmCsS89byTt");
+                var formatted_body = "{\"blocks\": [{ \"type\": \"section\",\"text\": { \"type\": \"mrkdwn\",\"text\": \"Stuff Written down\"}}]}";
                 
-                //Console.Write(body);
-                byte[] responseArray = Encoding.UTF8.GetBytes(body); // get the bytes to response
+            //Console.Write(body);
+                byte[] responseArray = Encoding.UTF8.GetBytes(formatted_body); // get the bytes to response
+                response.AddHeader("Content-type", "application/json");
                 response.OutputStream.Write(responseArray, 0, responseArray.Length); // write bytes to the output stream
                 response.KeepAlive = false; // set the KeepAlive bool to false
                 response.Close(); // close the connection
                 Console.WriteLine("Response given to a request.");
             }
+            
+            
         }
     }
 }
