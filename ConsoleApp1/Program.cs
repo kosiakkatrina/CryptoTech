@@ -42,7 +42,7 @@ namespace ConsoleApp1
                 
                 var client = new WebClient();
                 
-                var body = client.DownloadString("https://api.airtable.com/v0/appxiufWMNuWFhrKN/Marketplace?api_key=keyviCCmCsS89byTt");
+                var body = client.DownloadString("https://api.airtable.com/v0/appxiufWMNuWFhrKN/Marketplace?api_key=API_KEY");
                 
                 Console.Write(body);
 
