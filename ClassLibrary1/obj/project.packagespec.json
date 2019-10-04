@@ -1,11 +1,14 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/kat/RiderProjects/ClassLibrary1/ClassLibrary1/ClassLibrary1.csproj",
+    "projectUniqueName": "/Users/cait/repos/CryptoTech/ClassLibrary1/ClassLibrary1.csproj",
     "projectName": "ClassLibrary1",
-    "projectPath": "/Users/kat/RiderProjects/ClassLibrary1/ClassLibrary1/ClassLibrary1.csproj",
-    "outputPath": "/Users/kat/RiderProjects/ClassLibrary1/ClassLibrary1/obj/",
+    "projectPath": "/Users/cait/repos/CryptoTech/ClassLibrary1/ClassLibrary1.csproj",
+    "outputPath": "/Users/cait/repos/CryptoTech/ClassLibrary1/obj/",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp3.0"
     ],

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/ConsoleApp1.csproj": {}
+    "/Users/cait/repos/CryptoTech/ConsoleApp1/ConsoleApp1.csproj": {}
   },
   "projects": {
-    "/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/ConsoleApp1.csproj": {
+    "/Users/cait/repos/CryptoTech/ConsoleApp1/ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/ConsoleApp1.csproj",
+        "projectUniqueName": "/Users/cait/repos/CryptoTech/ConsoleApp1/ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/ConsoleApp1.csproj",
-        "packagesPath": "/Users/kat/.nuget/packages/",
-        "outputPath": "/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/obj/",
+        "projectPath": "/Users/cait/repos/CryptoTech/ConsoleApp1/ConsoleApp1.csproj",
+        "packagesPath": "/Users/cait/.nuget/packages/",
+        "outputPath": "/Users/cait/repos/CryptoTech/ConsoleApp1/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/kat/.config/NuGet/NuGet.Config"
+          "/Users/cait/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

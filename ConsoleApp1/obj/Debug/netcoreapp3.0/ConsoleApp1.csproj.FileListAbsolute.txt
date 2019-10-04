@@ -9,3 +9,14 @@
 /Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.AssemblyInfo.cs
 /Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.dll
 /Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.pdb
+/Users/cait/repos/CryptoTech/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1
+/Users/cait/repos/CryptoTech/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.deps.json
+/Users/cait/repos/CryptoTech/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.runtimeconfig.json
+/Users/cait/repos/CryptoTech/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.runtimeconfig.dev.json
+/Users/cait/repos/CryptoTech/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.dll
+/Users/cait/repos/CryptoTech/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.pdb
+/Users/cait/repos/CryptoTech/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.csprojAssemblyReference.cache
+/Users/cait/repos/CryptoTech/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/cait/repos/CryptoTech/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.AssemblyInfo.cs
+/Users/cait/repos/CryptoTech/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.dll
+/Users/cait/repos/CryptoTech/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.pdb

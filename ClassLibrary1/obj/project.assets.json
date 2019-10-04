@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "/Users/kat/.nuget/packages/": {}
+    "/Users/cait/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kat/RiderProjects/ClassLibrary1/ClassLibrary1/ClassLibrary1.csproj",
+      "projectUniqueName": "/Users/cait/repos/CryptoTech/ClassLibrary1/ClassLibrary1.csproj",
       "projectName": "ClassLibrary1",
-      "projectPath": "/Users/kat/RiderProjects/ClassLibrary1/ClassLibrary1/ClassLibrary1.csproj",
-      "packagesPath": "/Users/kat/.nuget/packages/",
-      "outputPath": "/Users/kat/RiderProjects/ClassLibrary1/ClassLibrary1/obj/",
+      "projectPath": "/Users/cait/repos/CryptoTech/ClassLibrary1/ClassLibrary1.csproj",
+      "packagesPath": "/Users/cait/.nuget/packages/",
+      "outputPath": "/Users/cait/repos/CryptoTech/ClassLibrary1/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/kat/.config/NuGet/NuGet.Config"
+        "/Users/cait/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"

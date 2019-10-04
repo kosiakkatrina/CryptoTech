@@ -1,0 +1,8 @@
+/Users/cait/repos/CryptoTech/ClassLibrary1/bin/Debug/netcoreapp3.0/ClassLibrary1.deps.json
+/Users/cait/repos/CryptoTech/ClassLibrary1/bin/Debug/netcoreapp3.0/ClassLibrary1.dll
+/Users/cait/repos/CryptoTech/ClassLibrary1/bin/Debug/netcoreapp3.0/ClassLibrary1.pdb
+/Users/cait/repos/CryptoTech/ClassLibrary1/obj/Debug/netcoreapp3.0/ClassLibrary1.csprojAssemblyReference.cache
+/Users/cait/repos/CryptoTech/ClassLibrary1/obj/Debug/netcoreapp3.0/ClassLibrary1.AssemblyInfoInputs.cache
+/Users/cait/repos/CryptoTech/ClassLibrary1/obj/Debug/netcoreapp3.0/ClassLibrary1.AssemblyInfo.cs
+/Users/cait/repos/CryptoTech/ClassLibrary1/obj/Debug/netcoreapp3.0/ClassLibrary1.dll
+/Users/cait/repos/CryptoTech/ClassLibrary1/obj/Debug/netcoreapp3.0/ClassLibrary1.pdb
