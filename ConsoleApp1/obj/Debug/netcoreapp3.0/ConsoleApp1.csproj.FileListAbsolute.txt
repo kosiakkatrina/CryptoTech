@@ -9,3 +9,11 @@
 /Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.AssemblyInfo.cs
 /Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.dll
 /Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.pdb
+/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/bin/Debug/netcoreapp3.0/JObject.dll
+/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
+/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.csproj.CopyComplete
+/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/bin/Debug/netcoreapp3.0/System.Net.Http.Formatting.dll
+/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/bin/Debug/netcoreapp3.0/System.Web.Http.dll
+/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/bin/Debug/netcoreapp3.0/Vse.Web.Serialization.dll
+/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/bin/Debug/netcoreapp3.0/WebApi.Contrib.dll
+/Users/kat/RiderProjects/ClassLibrary1/ConsoleApp1/bin/Debug/netcoreapp3.0/WebApiContrib.Formatting.JavaScriptSerializer.dll

@@ -1,11 +1,203 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "JObject/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/JObject.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/JObject.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Vse.Web.Serialization.ControlledSerializationJsonConverter/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Vse.Web.Serialization.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Vse.Web.Serialization.dll": {}
+        }
+      },
+      "WebApi.Contrib/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "5.2.3"
+        },
+        "compile": {
+          "lib/net452/WebApi.Contrib.dll": {}
+        },
+        "runtime": {
+          "lib/net452/WebApi.Contrib.dll": {}
+        }
+      },
+      "WebApiContrib.Formatting.JavaScriptSerializer/0.9.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "4.0.20710"
+        },
+        "compile": {
+          "lib/net40/WebApiContrib.Formatting.JavaScriptSerializer.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WebApiContrib.Formatting.JavaScriptSerializer.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "JObject/1.0.0": {
+      "sha512": "Z16S56kCKISB54p22yFsB9HKLCTEEEfZGi1NC62sJ7SWDZptcgmO3n6AhiUnOlho6Y8KfKKuNUayG9pIfQ05Hg==",
+      "type": "package",
+      "path": "jobject/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jobject.1.0.0.nupkg.sha512",
+        "jobject.nuspec",
+        "lib/netcoreapp2.0/JObject.dll"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.3": {
+      "sha512": "3kiI8peSXbXHDDrRuo+QaX0iCEVRe0nvn2dBDRw656uPX32UalbBlSIDUDlJxu05eau4tnuhsikiUuugvvoUoQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.3": {
+      "sha512": "o90QYlRV8VKR1S7+EcJw9w8WSyVFLl+IIzN8ILZ+n2t6rsc/KS8kBxRzA7wCFPRUHhebCfLqilBk39phvanx3g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Vse.Web.Serialization.ControlledSerializationJsonConverter/1.0.4": {
+      "sha512": "d1ZGds/VSN028I9xA8illzAH60ra08Rfxk9e4vuJZX+etAvQjyCY9z2iEdN4J9UD6nSdmaI9FNN+nJ1UNKI8Uw==",
+      "type": "package",
+      "path": "vse.web.serialization.controlledserializationjsonconverter/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Vse.Web.Serialization.dll",
+        "lib/net40/Vse.Web.Serialization.pdb",
+        "lib/net45/Vse.Web.Serialization.dll",
+        "lib/net45/Vse.Web.Serialization.pdb",
+        "vse.web.serialization.controlledserializationjsonconverter.1.0.4.nupkg.sha512",
+        "vse.web.serialization.controlledserializationjsonconverter.nuspec"
+      ]
+    },
+    "WebApi.Contrib/1.1.0": {
+      "sha512": "T4vBoTymDVNcW/nH9mxpfZMK3XOvHHgMhJOhhfKRy8eBSkquK2nt/z/y0Vzl7nZZFiuGN0wN7JWwmssAvwYc5g==",
+      "type": "package",
+      "path": "webapi.contrib/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/WebApi.Contrib.dll",
+        "webapi.contrib.1.1.0.nupkg.sha512",
+        "webapi.contrib.nuspec"
+      ]
+    },
+    "WebApiContrib.Formatting.JavaScriptSerializer/0.9.4": {
+      "sha512": "8+K9WEklfCIC+guM71L51adHPK+KkEXWWsVn0TQP435J8rdET6Ta1e+WsXg5gxdwI7Vx0R7zSaYQw8m8I0NsFg==",
+      "type": "package",
+      "path": "webapicontrib.formatting.javascriptserializer/0.9.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/WebApiContrib.Formatting.JavaScriptSerializer.dll",
+        "webapicontrib.formatting.javascriptserializer.0.9.4.nupkg.sha512",
+        "webapicontrib.formatting.javascriptserializer.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "JObject >= 1.0.0",
+      "Vse.Web.Serialization.ControlledSerializationJsonConverter >= 1.0.4",
+      "WebApi.Contrib >= 1.1.0",
+      "WebApiContrib.Formatting.JavaScriptSerializer >= 0.9.4"
+    ]
   },
   "packageFolders": {
     "/Users/kat/.nuget/packages/": {}
@@ -41,6 +233,24 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
+        "dependencies": {
+          "JObject": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Vse.Web.Serialization.ControlledSerializationJsonConverter": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          },
+          "WebApi.Contrib": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "WebApiContrib.Formatting.JavaScriptSerializer": {
+            "target": "Package",
+            "version": "[0.9.4, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -53,5 +263,57 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Client 5.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Client",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Vse.Web.Serialization.ControlledSerializationJsonConverter 1.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Vse.Web.Serialization.ControlledSerializationJsonConverter",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebApi.Contrib 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebApi.Contrib",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebApiContrib.Formatting.JavaScriptSerializer 0.9.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebApiContrib.Formatting.JavaScriptSerializer",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
 }

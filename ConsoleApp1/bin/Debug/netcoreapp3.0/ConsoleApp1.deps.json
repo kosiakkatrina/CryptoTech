@@ -7,8 +7,82 @@
   "targets": {
     ".NETCoreApp,Version=v3.0": {
       "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "JObject": "1.0.0",
+          "Vse.Web.Serialization.ControlledSerializationJsonConverter": "1.0.4",
+          "WebApi.Contrib": "1.1.0",
+          "WebApiContrib.Formatting.JavaScriptSerializer": "0.9.4"
+        },
         "runtime": {
           "ConsoleApp1.dll": {}
+        }
+      },
+      "JObject/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/JObject.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {
+            "assemblyVersion": "5.2.3.0",
+            "fileVersion": "5.2.30128.0"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {
+            "assemblyVersion": "5.2.3.0",
+            "fileVersion": "5.2.30128.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "Vse.Web.Serialization.ControlledSerializationJsonConverter/1.0.4": {
+        "runtime": {
+          "lib/net45/Vse.Web.Serialization.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "WebApi.Contrib/1.1.0": {
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "5.2.3"
+        },
+        "runtime": {
+          "lib/net452/WebApi.Contrib.dll": {
+            "assemblyVersion": "1.1.0.19736",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "WebApiContrib.Formatting.JavaScriptSerializer/0.9.4": {
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "runtime": {
+          "lib/net40/WebApiContrib.Formatting.JavaScriptSerializer.dll": {
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
+          }
         }
       }
     }
@@ -18,6 +92,55 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "JObject/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z16S56kCKISB54p22yFsB9HKLCTEEEfZGi1NC62sJ7SWDZptcgmO3n6AhiUnOlho6Y8KfKKuNUayG9pIfQ05Hg==",
+      "path": "jobject/1.0.0",
+      "hashPath": "jobject.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3kiI8peSXbXHDDrRuo+QaX0iCEVRe0nvn2dBDRw656uPX32UalbBlSIDUDlJxu05eau4tnuhsikiUuugvvoUoQ==",
+      "path": "microsoft.aspnet.webapi.client/5.2.3",
+      "hashPath": "microsoft.aspnet.webapi.client.5.2.3.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o90QYlRV8VKR1S7+EcJw9w8WSyVFLl+IIzN8ILZ+n2t6rsc/KS8kBxRzA7wCFPRUHhebCfLqilBk39phvanx3g==",
+      "path": "microsoft.aspnet.webapi.core/5.2.3",
+      "hashPath": "microsoft.aspnet.webapi.core.5.2.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "Vse.Web.Serialization.ControlledSerializationJsonConverter/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d1ZGds/VSN028I9xA8illzAH60ra08Rfxk9e4vuJZX+etAvQjyCY9z2iEdN4J9UD6nSdmaI9FNN+nJ1UNKI8Uw==",
+      "path": "vse.web.serialization.controlledserializationjsonconverter/1.0.4",
+      "hashPath": "vse.web.serialization.controlledserializationjsonconverter.1.0.4.nupkg.sha512"
+    },
+    "WebApi.Contrib/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T4vBoTymDVNcW/nH9mxpfZMK3XOvHHgMhJOhhfKRy8eBSkquK2nt/z/y0Vzl7nZZFiuGN0wN7JWwmssAvwYc5g==",
+      "path": "webapi.contrib/1.1.0",
+      "hashPath": "webapi.contrib.1.1.0.nupkg.sha512"
+    },
+    "WebApiContrib.Formatting.JavaScriptSerializer/0.9.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8+K9WEklfCIC+guM71L51adHPK+KkEXWWsVn0TQP435J8rdET6Ta1e+WsXg5gxdwI7Vx0R7zSaYQw8m8I0NsFg==",
+      "path": "webapicontrib.formatting.javascriptserializer/0.9.4",
+      "hashPath": "webapicontrib.formatting.javascriptserializer.0.9.4.nupkg.sha512"
     }
   }
 }
