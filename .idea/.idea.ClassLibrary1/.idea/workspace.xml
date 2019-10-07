@@ -3,12 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="a0580cc7-c33f-4007-aa85-b6a61aa85c85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassLibrary1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassLibrary1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary1/ClassLibrary1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary1/ClassLibrary1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary1/obj/ClassLibrary1.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary1/obj/ClassLibrary1.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary1/obj/ClassLibrary1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary1/obj/ClassLibrary1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary1/obj/ClassLibrary1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary1/obj/ClassLibrary1.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary1/obj/ClassLibrary1.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary1/obj/ClassLibrary1.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary1/obj/Debug/netcoreapp3.0/ClassLibrary1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary1/obj/Debug/netcoreapp3.0/ClassLibrary1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary1/obj/Debug/netcoreapp3.0/ClassLibrary1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary1/obj/Debug/netcoreapp3.0/ClassLibrary1.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassLibrary1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassLibrary1/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +111,8 @@
       <workItem from="1570094206442" duration="5753000" />
       <workItem from="1570111295952" duration="1087000" />
       <workItem from="1570113108313" duration="8895000" />
-      <workItem from="1570436305306" duration="1106000" />
+      <workItem from="1570436305306" duration="1798000" />
+      <workItem from="1570453823350" duration="2520000" />
     </task>
     <servers />
   </component>
